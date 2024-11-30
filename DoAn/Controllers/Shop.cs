@@ -2,7 +2,7 @@
 
 namespace DoAn.Controllers
 {
-    public class _404Controller : Controller
+    public class Shop : Controller
     {
         public IActionResult Index()
         {

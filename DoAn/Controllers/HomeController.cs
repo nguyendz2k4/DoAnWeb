@@ -6,16 +6,20 @@ namespace DoAn.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly APSWeb1Context _apsweb1Context;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(APSWeb1Context context,ILogger<HomeController> logger)
         {
             _logger = logger;
+            _apsweb1Context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var products = _apsweb1Context.TblProducts.ToList();
+            //var products = _apsweb1Context.TblProducts.Where(p => p.Name == "").ToList();
+            return View(products);
         }
 
         public IActionResult Privacy()

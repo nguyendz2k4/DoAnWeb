@@ -8269,6 +8269,10 @@
       "PackagePath": "staticwebassets\\img\\cart-page-header-img.jpg"
     },
     {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\corn-8028831_640.jpg",
+      "PackagePath": "staticwebassets\\img\\corn-8028831_640.jpg"
+    },
+    {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\featur-1.jpg",
       "PackagePath": "staticwebassets\\img\\featur-1.jpg"
     },
@@ -8321,6 +8325,14 @@
       "PackagePath": "staticwebassets\\img\\payment.png"
     },
     {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\potatoes-1585060_640.jpg",
+      "PackagePath": "staticwebassets\\img\\potatoes-1585060_640.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\salad-2756467_640.jpg",
+      "PackagePath": "staticwebassets\\img\\salad-2756467_640.jpg"
+    },
+    {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\img\\single-item.jpg"
     },
@@ -8351,6 +8363,14 @@
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\vegetable-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\vegetables-1584999_640.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetables-1584999_640.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\xoai-product.jpg",
+      "PackagePath": "staticwebassets\\img\\xoai-product.jpg"
     },
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\js\\main.js",
