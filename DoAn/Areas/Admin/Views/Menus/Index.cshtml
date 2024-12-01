@@ -58,11 +58,11 @@
    </tr>
         </thead>
             <tbody>
-                                    @{
-                                        int i = 1;
-                                    }
+                         @{
+                              int i = 1;
+                         }
 
-                                    @foreach (var item in Model)
+                         @foreach (var item in Model)
                                     {
                             <tr>
                                 <td>@(i++)</td>
@@ -76,7 +76,7 @@
                                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Xoá</a>
                                 </td>
                             </tr>
-                                    }                       
+                         }                       
                 </tbody>
                 </table>
               </div>

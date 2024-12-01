@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vtrun\\source\\repos\\DoAn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\tblsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\tblsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\areas\\admin\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\areas\\admin\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\tblmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\tblmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\areas\\admin\\views\\menus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\areas\\admin\\views\\menus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TblSupplier.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblSupplier.cs",
-              "RelativeDocumentMoniker": "DoAn\\Models\\TblSupplier.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblSupplier.cs",
-              "RelativeToolTip": "DoAn\\Models\\TblSupplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:25:10.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DoAn\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DoAn\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:21:38.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TestimonialController.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\TestimonialController.cs",
-              "RelativeDocumentMoniker": "DoAn\\Controllers\\TestimonialController.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\TestimonialController.cs",
-              "RelativeToolTip": "DoAn\\Controllers\\TestimonialController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:17:19.698Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoAn\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
+              "RelativeToolTip": "DoAn\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T07:38:10.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Testimonial\\Index.cshtml",
-              "RelativeDocumentMoniker": "DoAn\\Views\\Testimonial\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Testimonial\\Index.cshtml",
-              "RelativeToolTip": "DoAn\\Views\\Testimonial\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DoAn\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeToolTip": "DoAn\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwEYAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:05:06.079Z",
+              "WhenOpened": "2024-12-01T07:28:01.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DoAn\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "RelativeToolTip": "DoAn\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAF8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T07:16:57.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TblMenu.cs",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblMenu.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\TblMenu.cs",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblMenu.cs",
+              "RelativeToolTip": "DoAn\\Models\\TblMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:34:35.46Z",
               "EditorCaption": ""
             }
           ]
