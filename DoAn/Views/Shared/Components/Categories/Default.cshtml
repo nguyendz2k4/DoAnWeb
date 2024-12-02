@@ -1,0 +1,12 @@
+﻿@model IEnumerable<TblProductCategoy>
+@foreach(var item in Model)
+{
+    <ul class="list-unstyled fruite-categorie">
+        <li>
+            <div class="d-flex justify-content-between fruite-name">
+                <a href="#"><i class="fas fa-apple-alt me-2"></i>@item.Name</a>
+            </div>
+        </li>
+
+    </ul>
+}
