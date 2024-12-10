@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vtrun\\source\\repos\\DoAn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\repository\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\repository\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "DoAn\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "DoAn\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\CartItemModel.cs",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "DoAn\\Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:06:40.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Shared\\Components\\Categories\\Default.cshtml",
-              "RelativeDocumentMoniker": "DoAn\\Views\\Shared\\Components\\Categories\\Default.cshtml",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Shared\\Components\\Categories\\Default.cshtml",
-              "RelativeToolTip": "DoAn\\Views\\Shared\\Components\\Categories\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T09:53:32.446Z",
+              "WhenOpened": "2024-12-10T08:41:31.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "DoAn\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "DoAn\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAO0AAAAlAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "DoAn\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T07:37:51.968Z",
+              "WhenOpened": "2024-12-10T08:34:03.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoAn\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAkwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T08:32:40.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Repository\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "DoAn\\Repository\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Repository\\SessionExtensions.cs",
+              "RelativeToolTip": "DoAn\\Repository\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T08:28:16.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DoAn\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DoAn\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:25:22.9Z",
               "EditorCaption": ""
             }
           ]

@@ -10920,6 +10920,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.35",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.36",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18",
+      "Newtonsoft.Json >= 13.0.3",
       "SlugGenerator >= 2.0.2",
       "X.PagedList.Mvc.Core >= 10.5.7",
       "elFinder.NetCore >= 1.3.6"
@@ -10995,6 +10996,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.18, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "SlugGenerator": {
             "target": "Package",
