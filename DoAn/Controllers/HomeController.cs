@@ -1,5 +1,6 @@
 ﻿using DoAn.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace DoAn.Controllers
@@ -15,14 +16,18 @@ namespace DoAn.Controllers
             _apsweb1Context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var products = _apsweb1Context.TblProducts.ToList();
-            //var products = _apsweb1Context.TblProducts.Where(p => p.Name == "").ToList();
-            return View(products);
-        }
+            var products = await _apsweb1Context.TblProducts.ToListAsync();
+            var suppliers = await _apsweb1Context.TblSuppliers.ToListAsync();
+            ViewBag.Products = products;
+            ViewBag.Suppliers = suppliers;
 
-        public IActionResult Privacy()
+            return View();
+        }
+    
+
+    public IActionResult Privacy()
         {
             return View();
         }

@@ -20,32 +20,29 @@ namespace DoAn.Areas.Admin.Controllers
         }
 
         // GET: Admin/Menus
-
-
         public async Task<IActionResult> Index()
         {
-
-            return _context.TblMenus != null ? 
-                          View(await _context.TblMenus.ToListAsync()) :
-                          Problem("Entity set 'APSWeb1Context.TblMenus'  is null.");
+              return _context.TblProducts != null ? 
+                          View(await _context.TblProducts.ToListAsync()) :
+                          Problem("Entity set 'APSWeb1Context.TblProducts'  is null.");
         }
 
         // GET: Admin/Menus/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.TblMenus == null)
+            if (id == null || _context.TblProducts == null)
             {
                 return NotFound();
             }
 
-            var tblMenu = await _context.TblMenus
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (tblMenu == null)
+            var tblProduct = await _context.TblProducts
+                .FirstOrDefaultAsync(m => m.ProductId == id);
+            if (tblProduct == null)
             {
                 return NotFound();
             }
 
-            return View(tblMenu);
+            return View(tblProduct);
         }
 
         // GET: Admin/Menus/Create
@@ -59,32 +56,32 @@ namespace DoAn.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Link,Target,Description,Status,Position")] TblMenu tblMenu)
+        public async Task<IActionResult> Create([Bind("ProductId,Name,SeoTitle,Status,Image,ListImages,Price,PromotionPrice,Vat,Quantity,Warranty,Hot,Decription,Detail,ViewCount,CateId,UpdateBy,BraindId,SupplierId,UpdateDate,MetaKeyWords,MetaDecription,CreateBy,CreateDate")] TblProduct tblProduct)
         {
             if (ModelState.IsValid)
             {
-                tblMenu.Name = DoAn.Utilities.Function.TitleSlugGenerationAlias(tblMenu.Name);
-                _context.Add(tblMenu);
+                tblProduct.Name = DoAn.Utilities.Function.TitleSlugGenerationAlias(tblProduct.Name);
+                _context.Add(tblProduct);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(tblMenu);
+            return View(tblProduct);
         }
 
         // GET: Admin/Menus/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.TblMenus == null)
+            if (id == null || _context.TblProducts == null)
             {
                 return NotFound();
             }
 
-            var tblMenu = await _context.TblMenus.FindAsync(id);
-            if (tblMenu == null)
+            var tblProduct = await _context.TblProducts.FindAsync(id);
+            if (tblProduct == null)
             {
                 return NotFound();
             }
-            return View(tblMenu);
+            return View(tblProduct);
         }
 
         // POST: Admin/Menus/Edit/5
@@ -92,9 +89,9 @@ namespace DoAn.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Link,Target,Description,Status,Position")] TblMenu tblMenu)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,Name,SeoTitle,Status,Image,ListImages,Price,PromotionPrice,Vat,Quantity,Warranty,Hot,Decription,Detail,ViewCount,CateId,UpdateBy,BraindId,SupplierId,UpdateDate,MetaKeyWords,MetaDecription,CreateBy,CreateDate")] TblProduct tblProduct)
         {
-            if (id != tblMenu.Id)
+            if (id != tblProduct.ProductId)
             {
                 return NotFound();
             }
@@ -103,12 +100,12 @@ namespace DoAn.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(tblMenu);
+                    _context.Update(tblProduct);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TblMenuExists(tblMenu.Id))
+                    if (!TblProductExists(tblProduct.ProductId))
                     {
                         return NotFound();
                     }
@@ -119,25 +116,25 @@ namespace DoAn.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(tblMenu);
+            return View(tblProduct);
         }
 
         // GET: Admin/Menus/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.TblMenus == null)
+            if (id == null || _context.TblProducts == null)
             {
                 return NotFound();
             }
 
-            var tblMenu = await _context.TblMenus
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (tblMenu == null)
+            var tblProduct = await _context.TblProducts
+                .FirstOrDefaultAsync(m => m.ProductId == id);
+            if (tblProduct == null)
             {
                 return NotFound();
             }
 
-            return View(tblMenu);
+            return View(tblProduct);
         }
 
         // POST: Admin/Menus/Delete/5
@@ -145,23 +142,23 @@ namespace DoAn.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.TblMenus == null)
+            if (_context.TblProducts == null)
             {
-                return Problem("Entity set 'APSWeb1Context.TblMenus'  is null.");
+                return Problem("Entity set 'APSWeb1Context.TblProducts'  is null.");
             }
-            var tblMenu = await _context.TblMenus.FindAsync(id);
-            if (tblMenu != null)
+            var tblProduct = await _context.TblProducts.FindAsync(id);
+            if (tblProduct != null)
             {
-                _context.TblMenus.Remove(tblMenu);
+                _context.TblProducts.Remove(tblProduct);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TblMenuExists(int id)
+        private bool TblProductExists(int id)
         {
-          return (_context.TblMenus?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.TblProducts?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
     }
 }

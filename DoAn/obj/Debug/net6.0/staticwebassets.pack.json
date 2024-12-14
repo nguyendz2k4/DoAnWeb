@@ -285,6 +285,26 @@
       "PackagePath": "staticwebassets\\admin\\dist\\js\\pages\\dashboard3.js"
     },
     {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\login\\dist\\index.html",
+      "PackagePath": "staticwebassets\\admin\\login\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\login\\dist\\style.css",
+      "PackagePath": "staticwebassets\\admin\\login\\dist\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\login\\src\\index.pug",
+      "PackagePath": "staticwebassets\\admin\\login\\src\\index.pug"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\login\\src\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\login\\src\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\login\\style.css",
+      "PackagePath": "staticwebassets\\admin\\login\\style.css"
+    },
+    {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\admin\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css",
       "PackagePath": "staticwebassets\\admin\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css"
     },
@@ -8229,6 +8249,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nguyen.jpg",
+      "PackagePath": "staticwebassets\\img\\Nguyen.jpg"
+    },
+    {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\avatar.jpg",
       "PackagePath": "staticwebassets\\img\\avatar.jpg"
     },
@@ -8459,6 +8483,22 @@
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\index.html",
+      "PackagePath": "staticwebassets\\login\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\style.css",
+      "PackagePath": "staticwebassets\\login\\dist\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\src\\index.pug",
+      "PackagePath": "staticwebassets\\login\\src\\index.pug"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\src\\style.scss",
+      "PackagePath": "staticwebassets\\login\\src\\style.scss"
     },
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\scss\\bootstrap.scss",

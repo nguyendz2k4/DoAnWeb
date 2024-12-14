@@ -1,10 +1,9 @@
-﻿@model DoAn.Models.TblMenu
+﻿@model DoAn.Models.TblProduct
 
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-
 
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -12,12 +11,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Sửa menu</h1>
+                    <h1>Sửa sản phẩm</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">General Form</li>
+                        <li class="breadcrumb-item active">Chỉnh sửa sản phẩm</li>
                     </ol>
                 </div>
             </div>
@@ -34,11 +33,13 @@
                     <!-- general form elements -->
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Sửa menu</h3>
+                            <h3 class="card-title">Chỉnh sửa sản phẩm</h3>
                         </div>
                         <!-- /.card-header -->
+
+                        <!-- Form for editing -->
                         <form asp-action="Edit">
-                            <input type="hidden" asp-for="Id"/>
+                            <input type="hidden" asp-for="ProductId"/>
                             <div class="card-body">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -47,48 +48,46 @@
                                     <input asp-for="Name" class="form-control" />
                                     <span asp-validation-for="Name" class="text-danger"></span>
                                 </div>
-
+                                
                                 <div class="form-group">
-                                    <label asp-for="Link" class="control-label">Liên kết</label>
-                                    <input asp-for="Link" class="form-control" />
-                                    <span asp-validation-for="Link" class="text-danger"></span>
+                                    <label asp-for="Decription" class="control-label">Mô tả</label>
+                                    <textarea asp-for="Decription" class="form-control"></textarea>
+                                    <span asp-validation-for="Decription" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Target" class="control-label">Mục tiêu</label>
-                                    <input asp-for="Target" class="form-control" />
-                                    <span asp-validation-for="Target" class="text-danger"></span>
+                                    <label asp-for="Price" class="control-label">Giá</label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Description" class="control-label">Mô tả</label>
-                                    <input asp-for="Description" class="form-control" />
-                                    <span asp-validation-for="Description" class="text-danger"></span>
+                                    <label asp-for="PromotionPrice" class="control-label">Giá khuyến mãi</label>
+                                    <input asp-for="PromotionPrice" class="form-control" />
+                                    <span asp-validation-for="PromotionPrice" class="text-danger"></span>
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <label asp-for="Quantity" class="control-label">Số lượng</label>
+                                    <input asp-for="Quantity" class="form-control" />
+                                    <span asp-validation-for="Quantity" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Status" class="control-label">Trạng thái</label>
-                                    <input asp-for="Status" class="form-control" />
-                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
+                                    <input type="file" asp-for="Image" class="form-control" />
+                                    <span asp-validation-for="Image" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Position" class="control-label">Vị trí</label>
-                                    <input asp-for="Position" class="form-control" />
-                                    <span asp-validation-for="Position" class="text-danger"></span>
-                                </div>
-
-                                <div class="form-group form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" asp-for="Status" /> Hiển thị
-                                    </label>
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="submit" value="Sửa" class="btn btn-primary" />
+                                    <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
                                 </div>
                             </div>
                         </form>
+                        <!-- /.form -->
                     </div>
                     <!-- /.card -->
                 </div>
@@ -99,7 +98,6 @@
     </section>
     <!-- /.content -->
 </div>
-
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
