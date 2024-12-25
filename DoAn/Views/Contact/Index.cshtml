@@ -18,10 +18,10 @@
                 </div>
                 <div class="col-lg-7">
                     <form action="" class="">
-                        <input type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name">
+                        <input type="text" id="c_Name" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name">
                         <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email">
-                        <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
-                        <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">Submit</button>
+                        <textarea id="c_Detail" class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
+                        <button id="c_Submit" class="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">Submit</button>
                     </form>
                 </div>
                 <div class="col-lg-5">
@@ -52,3 +52,28 @@
     </div>
 </div>
 <!-- Contact End -->
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#c_Submit").click(function () {
+                _Name = $("#c_Name").val();
+                _Detail = $("#c_Detail").val();
+                $.ajax({
+                    url: "/Contact/Create",
+                    type: "POST",
+                    data: { Name: _Name, Detail: _Detail },
+                    success: function (result) {
+                        if (result != null) {
+                            $("#c_Name").val("");
+                            $("#c_Detail").val("");
+                            toastr.success('Gửi thành công');
+                        }
+                        else {
+                            toastr.success('Gửi không thành công');
+                        }
+                    }
+                })
+            });
+        })
+    </script>
+}

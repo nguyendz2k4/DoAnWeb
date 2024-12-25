@@ -147,14 +147,14 @@
                                             <h4>@item.Name</h4>
                                             <p>@item.Decription</p>
                                         </div>
-                                    </a>
-                                    <div class="d-flex justify-content-between flex-lg-wrap">
-                                        <p class="text-dark fs-5 fw-bold mb-0">$@item.Price</p>
+                                        <div class="d-flex justify-content-between flex-lg-wrap">
+                                            <p class="text-dark fs-5 fw-bold mb-0">$@item.Price</p>
 
-                                        <a class="btn border border-secondary rounded-pill px-3 text-primary" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.ProductId">
-                                            <i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart
-                                        </a>
-                                    </div>
+                                            <a class="btn border border-secondary rounded-pill px-3 text-primary" asp-action="Add" asp-controller="Cart" asp-route-ProductId="@item.ProductId">
+                                                <i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart
+                                            </a>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         }

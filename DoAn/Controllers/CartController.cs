@@ -28,24 +28,29 @@ namespace DoAn.Controllers
         {
             TblProduct product = await _context.TblProducts.FindAsync(ProductId);
 
+            if (product == null)
+            {
+                return NotFound();
+            }
+
             List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
 
-            CartItemModel cartItem = cart.Where(c=>c.ProductId == ProductId).FirstOrDefault();
+            CartItemModel cartItem = cart.FirstOrDefault(c => c.ProductId == ProductId);
 
-            if (cartItem != null)
+            if (cartItem == null)
             {
+                // Nếu sản phẩm chưa có trong giỏ, thêm mới
                 cart.Add(new CartItemModel(product));
             }
             else
             {
+                // Nếu sản phẩm đã có, tăng số lượng
                 cartItem.Quantity += 1;
             }
 
             HttpContext.Session.SetJson("Cart", cart);
-
-
-            return RedirectToAction(Request.Headers["Referer"].ToString());
-
+            TempData["success"] = "Add item to cart Successfully";
+            return RedirectToAction("Index"); // Chuyển thẳng đến trang giỏ hàng
         }
     }
 }

@@ -1,6 +1,7 @@
-* {
+﻿* {
   font-family: "Poppins";
 }
+
 
 body {
   -webkit-user-select: none;
@@ -12,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #dde5f4;
-  height: 100vh;
+  left: 200px;
 }
 
 .screen-1 {

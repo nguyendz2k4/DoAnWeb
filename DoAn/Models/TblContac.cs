@@ -9,5 +9,6 @@ namespace DoAn.Models
         public string? Name { get; set; }
         public string? Detail { get; set; }
         public bool? Status { get; set; }
+        public string? Email { get; set; }
     }
 }

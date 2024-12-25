@@ -1,0 +1,150 @@
+﻿@model DoAn.Models.TblProduct
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TbProduct</h4>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Sửa sản phẩm</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Sửa</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Full width column -->
+                <div class="col-12">
+                    <!-- Changed to full width -->
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Sửa</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <form asp-action="Edit" enctype="multipart/form-data">
+                            <input type="hidden" asp-for="ProductId" />
+                            <div class="card-body">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <!-- Title -->
+                                <div class="form-group">
+                                    <label asp-for="Name" class="control-label">Tiêu đề</label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+
+                                <!-- SeoTitle -->
+                                <div class="form-group">
+                                    <label asp-for="SeoTitle" class="control-label">Danh mục</label>
+                                    <input asp-for="SeoTitle" class="form-control" />
+                                    <span asp-validation-for="SeoTitle" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
+                                    <input asp-for="Image" class="form-control" />
+                                    <span asp-validation-for="Image" class="text-danger"></span>
+                                </div>
+
+                                <!-- Image Upload -->
+                                <div class="form-group">
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button type="button" class="btn btn-success" onclick="openDialog()">Choose a picture</button>
+                                        </div>
+                                        <input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2" />
+                                    </div>
+                                </div>
+
+                                <!-- Description -->
+                                <div class="form-group">
+                                    <label asp-for="Price" class="control-label">Giá</label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+
+                                <!-- Detail (Text Area) -->
+                                <div class="form-group">
+                                    <label asp-for="Decription" class="control-label">Chi tiết</label>
+                                    <textarea asp-for="Decription" class="form-control"></textarea>
+                                    <span asp-validation-for="Decription" class="text-danger"></span>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="form-group">
+                                    <label asp-for="Detail" class="control-label">Giá</label>
+                                    <input asp-for="Detail" class="form-control" />
+                                    <span asp-validation-for="Detail" class="text-danger"></span>
+                                </div>
+
+                                <!-- PriceSale -->
+                                <div class="form-group">
+                                    <label asp-for="ViewCount" class="control-label">Giá giảm</label>
+                                    <input asp-for="ViewCount" class="form-control" />
+                                    <span asp-validation-for="ViewCount" class="text-danger"></span>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="UpdateDate" class="control-label">Số lượng</label>
+                                    <input asp-for="UpdateDate" class="form-control" />
+                                    <span asp-validation-for="UpdateDate" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="CreateBy" class="control-label">Số lượng</label>
+                                    <input asp-for="CreateBy" class="form-control" />
+                                    <span asp-validation-for="CreateBy" class="text-danger"></span>
+                                </div>
+                                <!-- Is Active Checkbox -->
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="Status" /> Hiển thị
+                                    </label>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="form-group">
+                                    <input type="submit" value="Sửa" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!--/.col -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+
+@{
+    var summerNote = new DoAn.Areas.Admin.Models.SummerNote("#Detail");
+    <partial name="_SummerNote" model="summerNote" />
+}
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
