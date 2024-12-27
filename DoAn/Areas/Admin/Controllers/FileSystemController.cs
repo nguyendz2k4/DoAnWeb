@@ -3,39 +3,65 @@ using elFinder.NetCore.Drivers.FileSystem;
 using elFinder.NetCore;
 using Microsoft.AspNetCore.Http.Extensions;
 using System.Text.Json;
+using Microsoft.Extensions.Logging;
+
 namespace DoAn.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("/Admin/el-finder-file-system")]
     public class FileSystemController : Controller
     {
-        IWebHostEnvironment _env;
-        public FileSystemController(IWebHostEnvironment env) => _env = env;
+        private readonly IWebHostEnvironment _env;
+        private readonly ILogger<FileSystemController> _logger;
+
+        public FileSystemController(IWebHostEnvironment env, ILogger<FileSystemController> logger)
+        {
+            _env = env;
+            _logger = logger;
+        }
+
         [Route("connector")]
         public async Task<IActionResult> Connector()
         {
-            var connector = GetConnector();
-            var result = await connector.ProcessAsync(Request);
-            if (result is JsonResult)
+            try
             {
-                var json = result as JsonResult;
-                return Content(JsonSerializer.Serialize(json.Value), json.ContentType);
+                var connector = GetConnector();
+                var result = await connector.ProcessAsync(Request);
+                if (result is JsonResult json)
+                {
+                    return Content(JsonSerializer.Serialize(json.Value), json.ContentType);
+                }
+                else
+                {
+                    return Json(result);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return Json(result);
+                _logger.LogError(ex, "Error in Connector method");
+                return StatusCode(500, "Internal server error");
             }
         }
+
         [Route("thumb/{hash}")]
         public async Task<IActionResult> Thumbs(string hash)
         {
-            var connector = GetConnector();
-            return await connector.GetThumbnailAsync(HttpContext.Request, HttpContext.Response, hash);
+            try
+            {
+                var connector = GetConnector();
+                return await connector.GetThumbnailAsync(HttpContext.Request, HttpContext.Response, hash);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error in Thumbs method");
+                return StatusCode(500, "Internal server error");
+            }
         }
+
         private Connector GetConnector()
         {
             // Thư mục gốc lưu trữ là wwwwroot/files (đảm bảo có tạo thư mục này)
-            string pathroot = "files";
+            string pathroot = "file";
 
             var driver = new FileSystemDriver();
 
@@ -49,7 +75,6 @@ namespace DoAn.Areas.Admin.Controllers
             string url = $"/{pathroot}/";
             string urlthumb = $"{uri.Scheme}://Admin/el-finder-file-system/thumb/";
 
-
             var root = new RootVolume(rootDirectory, url, urlthumb)
             {
                 //IsReadOnly = !User.IsInRole("Administrators")
@@ -60,7 +85,6 @@ namespace DoAn.Areas.Admin.Controllers
                 //LockedFolders = new List<string>(new string[] { "Folder1" }
                 ThumbnailSize = 100,
             };
-
 
             driver.AddRoot(root);
 

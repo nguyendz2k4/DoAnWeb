@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/YwybVFGLTqfD39pRSkaGGwbliiK22N3EeU9ST7K9vI=",
+  "Hash": "+hccS52gjrMzaJ6o5y+LKCHGNgo72HSqNaPQCT2DUUA=",
   "Source": "DoAn",
   "BasePath": "_content/DoAn",
   "Mode": "Default",
@@ -56162,12 +56162,12 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\files\\corn-8028831_640.jpg",
+      "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\file\\z6166313969946_ed70eb10f37f5dd39b1c03d964988f9d.jpg",
       "SourceId": "DoAn",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\",
       "BasePath": "_content/DoAn",
-      "RelativePath": "files/corn-8028831_640.jpg",
+      "RelativePath": "file/z6166313969946_ed70eb10f37f5dd39b1c03d964988f9d.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56178,7 +56178,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\corn-8028831_640.jpg"
+      "OriginalItemSpec": "wwwroot\\file\\z6166313969946_ed70eb10f37f5dd39b1c03d964988f9d.jpg"
     },
     {
       "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\avatar.jpg",
@@ -56635,6 +56635,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Nguyen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nhat.jpg",
+      "SourceId": "DoAn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\",
+      "BasePath": "_content/DoAn",
+      "RelativePath": "img/Nhat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Nhat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nhung.jpg",
+      "SourceId": "DoAn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\",
+      "BasePath": "_content/DoAn",
+      "RelativePath": "img/Nhung.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Nhung.jpg"
     },
     {
       "Identity": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\payment.png",

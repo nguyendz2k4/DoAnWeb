@@ -12,8 +12,8 @@ namespace DoAn.Controllers
         }
         public IActionResult Index()
         {
-            //var Supplier = _apsweb1Context.TblSuppliers.ToList();
-            return View();
+            var suppliers = _apsweb1Context.TblSuppliers.ToList();
+            return View(suppliers);
         }
     }
 }

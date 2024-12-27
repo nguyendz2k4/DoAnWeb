@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vtrun\\source\\repos\\DoAn\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|c:\\users\\vtrun\\source\\repos\\doan\\doan\\models\\tblcontac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B278749-6478-4A99-A7BC-FA671D376BCA}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\tblcontac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "DoAn\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "DoAn\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:49:34.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartItemModel.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\CartItemModel.cs",
-              "RelativeDocumentMoniker": "DoAn\\Models\\CartItemModel.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\CartItemModel.cs",
-              "RelativeToolTip": "DoAn\\Models\\CartItemModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:49:23.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "DoAn\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\UserModel.cs",
-              "RelativeToolTip": "DoAn\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:49:14.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "DoAn\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "DoAn\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T13:47:19.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TblContac.cs",
-              "DocumentMoniker": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblContac.cs",
-              "RelativeDocumentMoniker": "DoAn\\Models\\TblContac.cs",
-              "ToolTip": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\Models\\TblContac.cs",
-              "RelativeToolTip": "DoAn\\Models\\TblContac.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T09:44:37.876Z",
-              "EditorCaption": ""
             }
           ]
         }

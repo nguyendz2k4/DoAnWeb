@@ -16,13 +16,14 @@ namespace DoAn.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(string Name, string Detail, bool Status)
+        public IActionResult Create(string Name, string Detail, string Email)
         {
             try
             {
                 TblContac contac = new TblContac();
                 contac.Name = Name;
                 contac.Detail = Detail;
+                contac.Email = Email;
                 _context.Add(contac);
                 _context.SaveChangesAsync();
                 return Json(new { Status = true });

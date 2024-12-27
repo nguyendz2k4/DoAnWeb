@@ -22,9 +22,9 @@ namespace DoAn.Areas.Admin.Controllers
         // GET: Admin/Products
         public async Task<IActionResult> Index()
         {
-              return _context.TblProducts != null ? 
-                          View(await _context.TblProducts.ToListAsync()) :
-                          Problem("Entity set 'APSWeb1Context.TblProducts'  is null.");
+            return _context.TblProducts != null ?
+                        View(await _context.TblProducts.ToListAsync()) :
+                        Problem("Entity set 'APSWeb1Context.TblProducts'  is null.");
         }
 
         // GET: Admin/Products/Details/5
@@ -67,7 +67,7 @@ namespace DoAn.Areas.Admin.Controllers
             }
             ViewData["CateId"] = new SelectList(_context.TblProductCategoys, "CateId", "CateId", tblProduct.CateId);
             ViewData["SupplierId"] = new SelectList(_context.TblSuppliers, "Id", "Name", tblProduct.SupplierId);
-            ViewData["BrandId"] = new SelectList(_context.TblBrands, "Id", "Name", tblProduct.BraindId); // Đảm bảo rằng ViewData["BrandId"] được thiết lập lại
+            ViewData["BrandId"] = new SelectList(_context.TblBrands, "Id", "Name", tblProduct.BraindId);
             return View(tblProduct);
         }
 
@@ -157,14 +157,14 @@ namespace DoAn.Areas.Admin.Controllers
             {
                 _context.TblProducts.Remove(tblProduct);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TblProductExists(int id)
         {
-          return (_context.TblProducts?.Any(e => e.ProductId == id)).GetValueOrDefault();
+            return (_context.TblProducts?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
     }
 }

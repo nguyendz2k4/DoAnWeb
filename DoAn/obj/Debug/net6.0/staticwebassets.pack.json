@@ -11817,12 +11817,20 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\files\\corn-8028831_640.jpg",
-      "PackagePath": "staticwebassets\\files\\corn-8028831_640.jpg"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\file\\z6166313969946_ed70eb10f37f5dd39b1c03d964988f9d.jpg",
+      "PackagePath": "staticwebassets\\file\\z6166313969946_ed70eb10f37f5dd39b1c03d964988f9d.jpg"
     },
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nguyen.jpg",
       "PackagePath": "staticwebassets\\img\\Nguyen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nhat.jpg",
+      "PackagePath": "staticwebassets\\img\\Nhat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\Nhung.jpg",
+      "PackagePath": "staticwebassets\\img\\Nhung.jpg"
     },
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\img\\avatar.jpg",
