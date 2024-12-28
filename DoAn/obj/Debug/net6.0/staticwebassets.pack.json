@@ -12065,28 +12065,40 @@
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\JavaScript.js",
-      "PackagePath": "staticwebassets\\login\\dist\\JavaScript.js"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\css\\popuo-box.css",
+      "PackagePath": "staticwebassets\\login\\css\\popuo-box.css"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\index.html",
-      "PackagePath": "staticwebassets\\login\\dist\\index.html"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\css\\style.css",
+      "PackagePath": "staticwebassets\\login\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\style.css",
-      "PackagePath": "staticwebassets\\login\\dist\\style.css"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\images\\b2.jpg",
+      "PackagePath": "staticwebassets\\login\\images\\b2.jpg"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\dist\\style1.css",
-      "PackagePath": "staticwebassets\\login\\dist\\style1.css"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\images\\e-mail.png",
+      "PackagePath": "staticwebassets\\login\\images\\e-mail.png"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\src\\index.pug",
-      "PackagePath": "staticwebassets\\login\\src\\index.pug"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\images\\password.png",
+      "PackagePath": "staticwebassets\\login\\images\\password.png"
     },
     {
-      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\src\\style.scss",
-      "PackagePath": "staticwebassets\\login\\src\\style.scss"
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\images\\tick.png",
+      "PackagePath": "staticwebassets\\login\\images\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\images\\user.png",
+      "PackagePath": "staticwebassets\\login\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\js\\jquery-2.1.4.min.js",
+      "PackagePath": "staticwebassets\\login\\js\\jquery-2.1.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\login\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\login\\js\\jquery.magnific-popup.js"
     },
     {
       "Id": "C:\\Users\\vtrun\\source\\repos\\DoAn\\DoAn\\wwwroot\\scss\\bootstrap.scss",
